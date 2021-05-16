@@ -1,0 +1,280 @@
+
+
+/* Tablet Landscape */
+@media screen and (max-width: 1060px) {
+    #primary { width:67%; }
+    #secondary { width:30%; margin-left:3%;}  
+}
+
+/* Tabled Portrait */
+@media screen and (max-width: 768px) {
+    #primary { width:100%; }
+    #secondary { width:100%; margin:0; border:none; }
+}
+img { max-width: 100%; }
+
+html { font-size:100%; } 
+
+@media (min-width: 640px) { body {font-size:1rem;} } 
+@media (min-width:960px) { body {font-size:1.2rem;} } 
+@media (min-width:1100px) { body {font-size:1.5rem;} } 
+
+
+body{
+    margin: 0 auto;
+    background: rgba(76,76,76,1);
+    background: -moz-linear-gradient(left, rgba(76,76,76,1) 0%, rgba(0,0,0,1) 13%, rgba(102,102,102,1) 22%, rgba(71,71,71,1) 32%, rgba(89,89,89,1) 44%, rgba(44,44,44,1) 54%, rgba(43,43,43,1) 62%, rgba(17,17,17,1) 70%, rgba(43,43,43,1) 79%, rgba(28,28,28,1) 89%, rgba(19,19,19,1) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(76,76,76,1)), color-stop(13%, rgba(0,0,0,1)), color-stop(22%, rgba(102,102,102,1)), color-stop(32%, rgba(71,71,71,1)), color-stop(44%, rgba(89,89,89,1)), color-stop(54%, rgba(44,44,44,1)), color-stop(62%, rgba(43,43,43,1)), color-stop(70%, rgba(17,17,17,1)), color-stop(79%, rgba(43,43,43,1)), color-stop(89%, rgba(28,28,28,1)), color-stop(100%, rgba(19,19,19,1)));
+    background: -webkit-linear-gradient(left, rgba(76,76,76,1) 0%, rgba(0,0,0,1) 13%, rgba(102,102,102,1) 22%, rgba(71,71,71,1) 32%, rgba(89,89,89,1) 44%, rgba(44,44,44,1) 54%, rgba(43,43,43,1) 62%, rgba(17,17,17,1) 70%, rgba(43,43,43,1) 79%, rgba(28,28,28,1) 89%, rgba(19,19,19,1) 100%);
+    background: -o-linear-gradient(left, rgba(76,76,76,1) 0%, rgba(0,0,0,1) 13%, rgba(102,102,102,1) 22%, rgba(71,71,71,1) 32%, rgba(89,89,89,1) 44%, rgba(44,44,44,1) 54%, rgba(43,43,43,1) 62%, rgba(17,17,17,1) 70%, rgba(43,43,43,1) 79%, rgba(28,28,28,1) 89%, rgba(19,19,19,1) 100%);
+    background: -ms-linear-gradient(left, rgba(76,76,76,1) 0%, rgba(0,0,0,1) 13%, rgba(102,102,102,1) 22%, rgba(71,71,71,1) 32%, rgba(89,89,89,1) 44%, rgba(44,44,44,1) 54%, rgba(43,43,43,1) 62%, rgba(17,17,17,1) 70%, rgba(43,43,43,1) 79%, rgba(28,28,28,1) 89%, rgba(19,19,19,1) 100%);
+    background: linear-gradient(to right, rgba(76,76,76,1) 0%, rgba(0,0,0,1) 13%, rgba(102,102,102,1) 22%, rgba(71,71,71,1) 32%, rgba(89,89,89,1) 44%, rgba(44,44,44,1) 54%, rgba(43,43,43,1) 62%, rgba(17,17,17,1) 70%, rgba(43,43,43,1) 79%, rgba(28,28,28,1) 89%, rgba(19,19,19,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4c4c4c', endColorstr='#131313', GradientType=1 );
+     border: pink 10px dotted;
+     justify-content: center;
+     justify-items: flex;
+     align-items: center;
+     padding-top: 10%;
+     padding-bottom: 5%;
+     
+
+}
+
+audio{
+    margin: 0 auto;
+   
+   margin-bottom: 5%;
+}
+
+.container0{
+     margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   padding: auto;
+padding: 10px auto;
+padding-left: 50px auto;
+padding-top: 20px auto;
+    margin-left: 30px;
+    
+    height: 180px ;
+  
+    align-items:center;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpgEcVB3okdZJnZh6UJd4QTCWnIH7UFeJHg6PkycgfRISkJ188eVew53aGu9y6xtcNzRs&usqp=CAU");
+}
+
+
+.container2{
+
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   padding: auto;
+padding: 10px auto;
+padding-left: 50px auto;
+padding-top: 20px auto;
+    margin-left: 30px;
+    
+    height: 180px ;
+  
+    align-items:center;
+    background-image: url("https://image.shutterstock.com/image-vector/colorful-seamless-alphabet-pattern-bold-260nw-1654796551.jpg");
+
+ }
+
+
+.container3{
+  
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   padding: auto;
+padding: 10px auto;
+padding-left: 50px auto;
+padding-top: 20px auto;
+    margin-left: 30px;
+    
+    height: 180px ;
+  
+    align-items:center;
+    background-image: url("https://st4.depositphotos.com/12709286/20224/v/950/depositphotos_202243530-stock-illustration-bright-pattern-punctuation-marks-mathematical.jpg");
+   
+}
+.button3{
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: blue;
+    color: white;
+}
+.pass{
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    color: black;
+    border-style: dashed;
+    border-color: black;
+}
+
+.container4{
+     
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   padding: auto;
+padding: 10px auto;
+padding-left: 50px auto;
+padding-top: 20px auto;
+    margin-left: 30px;
+    
+    height: 180px ;
+  
+    align-items:center;
+   
+    background-image: url("https://thumbs.dreamstime.com/b/isometric-alphabet-numbers-punctuation-marks-halftone-dotted-pattern-standing-lying-raw-blue-background-abc-letters-149885030.jpg");
+
+
+
+
+}
+P{
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 10px black dotted ;
+    color: white;
+    font-weight: 900;
+    padding-left: 300px auto;
+    margin: 50px auto;
+    margin-left: 100px auto;
+  
+}
+p:hover{
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border: black 10px double ;
+    color: black;
+}
+.p1{
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: 900 auto;
+    padding-left: 250px auto;
+    margin: 100px auto;
+}
+
+
+
+h2{
+ 
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+      color: grey;
+      font-size:1.5em ;
+      font-weight: 700 auto;
+      padding-left: 300px auto;
+
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      position: relative;
+      top: 50% ;
+      left: 50%;
+      transform: translate(-50%,-50%)
+  }
+  h2:hover{
+   
+  
+  color: white;
+  
+  }
+
+h1{
+ 
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+    color: grey;
+    font-size: 1.5em  ;
+    font-weight: 700;
+    padding-left: 300px auto;
+  
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: relative;
+    top: 50% ;
+    left: 50%;
+    transform: translate(-50%,-50%)
+}
+h1:hover{
+ 
+
+color: white;
+
+}
+span{
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+  
+    font-weight: bolder;
+    animation: mover 6s linear infinite;
+}
+@keyframes mover
+{
+    0%{
+        text-shadow: 0 0 30px rgba(0, 0, 0, 0);
+      }
+    50%{
+        text-shadow: 0 0 30px rgba(0, 0, 0, 0.30);
+        transform: translateY(30px);
+      }
+    100%
+      {
+        text-shadow: 0 0 30px rgba(0, 0, 0, 0);
+      }
+}
+span:nth-child(1)
+{
+    animation-delay: 0.5s;
+}
+span:nth-child(2)
+{
+    animation-delay: 1s;
+}
+span:nth-child(3)
+{
+    animation-delay: 1.5s;
+}
+span:nth-child(4)
+{
+    animation-delay: 2s;
+}
+span:nth-child(5)
+{
+   
+    animation-delay: 2.5s;
+}
+span:nth-child(6)
+{
+    animation-delay: 3s;
+}
+span:nth-child(7)
+{
+    animation-delay: 3.5s;
+}
